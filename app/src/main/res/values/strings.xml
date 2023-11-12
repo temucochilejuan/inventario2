@@ -1,0 +1,27 @@
+<resources>
+
+        <string name="app_name">Inventario</string>
+        <string name="et_NombreProducto">Nombre del Producto</string>
+        <string name="et_CodigoBarra">Código de Barras</string>
+        <string name="et_Precio">Precio</string>
+        <string name="et_Stock">Stock</string>
+        <string name="et_Descripcion">Descripción</string>
+        <string name="btnAgregarProducto">Agregar Producto</string>
+        <string name="btnCancelar">Cancelar</string>
+        <string name="btnEditar">Editar</string>
+        <string name="btnEliminar">Eliminar</string>
+        <string name="txtNombre">Nombre: </string>
+        <string name="txtCodigoBarra">Código de Barras: </string>
+        <string name="txtPrecio">Precio: </string>
+        <string name="txtStock">Stock: </string>
+        <string name="txtDescripcion">Descripción: </string>
+        <string name="btnSalir">Salir</string>
+        <string name="btnDetalles">Detalles</string>
+
+        <string name="txt_longitud">Longitud</string>
+        <string name="txt_latitud">Latitud</string>
+
+
+
+
+</resources>

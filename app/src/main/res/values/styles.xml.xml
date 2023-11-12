@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Estilo personalizado para TextView -->
+    <style name="GmailTextView">
+        <item name="android:textColor">#333333</item> <!-- Color de texto gris oscuro -->
+        <item name="android:textSize">16sp</item> <!-- Tamaño de texto 16sp -->
+        <item name="android:padding">8dp</item> <!-- Añadir relleno alrededor del texto -->
+    </style>
+
+    <!-- Estilo personalizado para Button -->
+    <style name="GmailButton">
+        <item name="android:textColor">#FFFFFF</item> <!-- Color de texto blanco -->
+        <item name="android:textSize">18sp</item> <!-- Tamaño de texto 18sp -->
+        <item name="android:padding">12dp</item> <!-- Añadir relleno alrededor del texto -->
+        <item name="android:background">@drawable/gmail_button_background</item> <!-- Fondo personalizado del botón -->
+    </style>
+
+</resources>

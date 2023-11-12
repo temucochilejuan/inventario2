@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@mipmap/klipa"
+    android:orientation="vertical">
+
+    <!-- Juan Gallegos -->
+
+    <!-- Juan Gallegos -->
+    <TextView
+        android:id="@+id/textViewNombreProducto"
+        style="@style/GmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNombre" />
+
+    <TextView
+        android:id="@+id/textViewCodigoBarra"
+        style="@style/GmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCodigoBarra" />
+
+    <!-- Juan Gallegos -->
+    <TextView
+        android:id="@+id/textViewPrecio"
+        style="@style/GmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtPrecio" />
+
+    <!-- Juan Gallegos -->
+    <TextView
+        android:id="@+id/textViewStock"
+        style="@style/GmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtStock" />
+
+    <!-- Juan Gallegos -->
+    <TextView
+        android:id="@+id/textViewDescripcion"
+        style="@style/GmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtDescripcion" />
+
+    <!-- Juan Gallegos -->
+    <Button
+        android:id="@+id/btnAgregarProducto"
+        style="@style/GmailButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAgregarProducto" />
+    <!-- Juan Gallegos -->
+
+    <!-- ... Otros elementos ... -->
+
+</LinearLayout>

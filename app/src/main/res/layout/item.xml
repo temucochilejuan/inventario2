@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:background="@mipmap/fondoo"
+    android:backgroundTint="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!-- Información del Producto -->
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Nombre del Producto -->
+        <TextView
+            android:id="@+id/txtNombreProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNombre"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <!-- Código de Barras -->
+        <TextView
+            android:id="@+id/txtCodigoBarra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCodigoBarra"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <!-- Precio -->
+        <TextView
+            android:id="@+id/txtPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtPrecio"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <!-- Stock -->
+        <TextView
+            android:id="@+id/txtStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtStock"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <!-- Descripción -->
+        <TextView
+            android:id="@+id/et_Descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtDescripcion"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <!-- Botones de acción -->
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="118dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <!-- Botón Editar -->
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="113dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#F4F0F0"
+            android:text="@string/btnEditar"
+            android:textColor="#3F51B5" />
+
+        <!-- Botón Eliminar -->
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="89dp"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:backgroundTint="#4B03A9F4"
+            android:text="@string/btnEliminar"
+            android:textColor="#E41111" />
+        <!-- Juan Gallegos -->
+
+        <!-- Botón Detalles -->
+        <Button
+            android:id="@+id/btnDetalles"
+            android:layout_width="89dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:backgroundTint="#41FF5722"
+            android:text="@string/btnDetalles"
+            android:textColor="#673AB7" />
+    </LinearLayout>
+</LinearLayout>
